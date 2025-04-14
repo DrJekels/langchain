@@ -1512,13 +1512,13 @@
     "@docusaurus/theme-search-algolia" "3.5.2"
     "@docusaurus/types" "3.5.2"
 
-"@docusaurus/remark-plugin-npm2yarn@^3.5.2":
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/@docusaurus/remark-plugin-npm2yarn/-/remark-plugin-npm2yarn-3.5.2.tgz#892a63a9b53475d7c59957bd67277656dcd91079"
-  integrity sha512-EAD7R/skPuhW3lWZyDhRuFs3m2EGaR008tuoe6SrFre7PifoxmSCwXk8Nb4VtVRKnnbn4IgHyqq+ma47gGmKwg==
+"@docusaurus/remark-plugin-npm2yarn@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/remark-plugin-npm2yarn/-/remark-plugin-npm2yarn-3.7.0.tgz#ccbd81c0990dce2862240211897e45a1d63c6859"
+  integrity sha512-2QkZh75vZzPefW5Ljt8gwc1i0ERuS0MRZTEwHsSXSi6vc2NpLVbcmfIuHhwR8o0PcGVTxmBEhQRP0NN1vHdOAA==
   dependencies:
     mdast-util-mdx "^3.0.0"
-    npm-to-yarn "^2.2.1"
+    npm-to-yarn "^3.0.0"
     tslib "^2.6.0"
     unified "^11.0.3"
     unist-util-visit "^5.0.0"
@@ -8189,10 +8189,10 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
-npm-to-yarn@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/npm-to-yarn/-/npm-to-yarn-2.2.1.tgz#048843a6630621daffc6a239dfc89698b8abf7e8"
-  integrity sha512-O/j/ROyX0KGLG7O6Ieut/seQ0oiTpHF2tXAcFbpdTLQFiaNtkyTXXocM1fwpaa60dg1qpWj0nHlbNhx6qwuENQ==
+npm-to-yarn@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/npm-to-yarn/-/npm-to-yarn-3.0.1.tgz#d1ed47551321ad5cd51342729fe21c8146644529"
+  integrity sha512-tt6PvKu4WyzPwWUzy/hvPFqn+uwXO0K1ZHka8az3NnrhWJDmSqI8ncWq0fkL0k/lmmi5tAC11FXwXuh0rFbt1A==
 
 nprogress@^0.2.0:
   version "0.2.0"
@@ -10010,7 +10010,16 @@ stop-iteration-iterator@^1.0.0:
   dependencies:
     internal-slot "^1.0.4"
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -10121,7 +10130,14 @@ stringify-object@^3.3.0:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
