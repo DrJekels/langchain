@@ -20,7 +20,7 @@ strict_delimiters = [
     r"(?<!%)\<\!\-\-.*?\-\-\>(?!%)", r"(?<!%)\<\!\-\-.*?\-\-\>(?!%)"
 ]
 
-def sanitize_inpuy(input_text: str) -> str:
+def sanitize_input(input_text: str) -> str:
     """Sanitize input for chat by removing any delimiters to prevent escape of context."""
     # Create a regex pattern that matches any of the delimiters
     pattern = re.compile("|".join(strict_delimiters), re.DOTALL)
