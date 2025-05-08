@@ -16,3 +16,4 @@ def test_validation_allows_safe_escape():
 def test_normalization_works():
     escaped = "[%INST%] Hello [%/INST%]"
     normalized = normalize_escaped_delimiters(escaped)
+    assert normalized == "[INST] Hello [/INST]"
